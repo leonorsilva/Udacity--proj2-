@@ -1,10 +1,13 @@
 # Udacity-proj2
 
-### The Environment
-For this project, you will work with the Reacher environment.
 [//]: # (Image References)
 
 [image1]: https://video.udacity-data.com/topher/2018/June/5b1ea778_reacher/reacher.gif "Unity ML-Agents Reacher Environment"
+
+### The Environment
+For this project, you will work with the Reacher environment.
+
+![Trained Agent][image1]
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
