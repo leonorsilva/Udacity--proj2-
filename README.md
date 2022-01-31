@@ -41,3 +41,13 @@ To install the necessary packages you can:
   
 after you download the files.
 
+### Run the code
+
+After installing the dependencies, the reported code is ready to run in the file DDPG.ipynb.
+This will train the models from scratch. If instead the user wants to load the trained files it can so by:
+
+    agent.actor_local = torch.jit.load('actor_local.pt')
+    agent.critic_local = torch.jit.load('critic_local.pt')
+    
+after the line:
+    agent = Agent(state_size, action_size, random_seed=10)
